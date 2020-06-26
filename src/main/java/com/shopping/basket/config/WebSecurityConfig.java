@@ -28,8 +28,8 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter implements W
     @Autowired
     private JwtTokenProvider jwtTokenProvider;
 
-    private static final String[]	AUTH_WHITELIST	= { "api/v1/**" };
-    private static final String[]	AUTH_PUBLIC	= { "api/public/**", "/swagger-resources/**",
+    private static final String[]	AUTH_WHITELIST	= { "/api/v1/**" };
+    private static final String[]	AUTH_PUBLIC	= { "/api/public/**", "/swagger-resources/**",
             "/swagger-ui.html",
             "/v2/api-docs",
             "/webjars/**" };
