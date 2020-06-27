@@ -12,3 +12,9 @@ A token will be provided so you can try the Rest APIs, pass the token in the Aut
 
 
 NOTE: 'whenAdded' and 'whenUpdated' json properties doesn't need to be in the request body
+
+MySQL Configuration
+
+Create a database named "basket-loc", usually it should be served in port 3306.
+
+Hibernate's ddl auto update is active so it will auto generate tables in the database.
